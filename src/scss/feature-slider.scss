@@ -5,6 +5,10 @@
   margin: 60px 0;
   @include font-stm;
   text-align: center;
+  &-header {
+    font-size: 26px;
+    margin :40px 0;
+  }
 
   &-item {
     max-width: 290px;
