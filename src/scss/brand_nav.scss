@@ -1,0 +1,91 @@
+@import "mixins/font-mixins.scss";
+@import 'mixins/colors';
+
+.navbar-brand {
+  width: 100%;
+  animation: navbar-load 2s ease-in-out;
+  background-color: white;
+  color: black;
+  padding: 35px  10px;
+
+  a {
+    color: unset;
+    text-decoration: none;
+  }
+  &__inner {
+    @include font-stm;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  &__right-side {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 25%;
+    list-style-type: none;
+    font-size: 24px;
+    margin-right: 20px;
+    transition: .4s ease-in all;
+  }
+  &__left-side {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+    list-style-type: none;
+    font-size: 20px;
+    margin-right: 20px;
+    transition: .4s ease-in all;
+    &_logo {
+      font-size: 55px;
+    }
+    &_description {
+      margin: 20px 0 0 140px;
+    }
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+  .navbar-brand {
+    &__right-side {
+      width: 25%;
+    }
+    &__left-side {
+      &_logo {
+        font-size: 45px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .navbar-brand {
+    &__right-side {
+      margin-right: 10%;
+    }
+    &__left-side {
+      &_logo {
+        font-size: 35px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+  .navbar-brand {
+    display: none;
+  }
+}

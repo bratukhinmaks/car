@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Shape</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Footer" transform="translate(-850.000000, -125.000000)">
+            <rect id="bg-darken-10%" fill="#333333" x="0" y="65" width="1920" height="350"></rect>
+            <g id="post-facebook" transform="translate(850.000000, 125.000000)" fill="#FFFFFF">
+                <path d="M36,0 L4,0 C1.8,0 0,1.8 0,4 L0,36 C0,38.2 1.8,40 4,40 L36,40 C38.2,40 40,38.2 40,36 L40,4 C40,1.8 38.2,0 36,0 L36,0 Z M34,4 L34,10 L30,10 C28.8,10 28,10.8 28,12 L28,16 L34,16 L34,22 L28,22 L28,36 L22,36 L22,22 L18,22 L18,16 L22,16 L22,11 C22,7.2 25.2,4 29,4 L34,4 L34,4 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

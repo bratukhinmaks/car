@@ -1,0 +1,69 @@
+@import 'mixins/font-mixins';
+.footer {
+  @include font-stm;
+  font-size: 12px;
+  font-weight: 500;
+  &-container {
+    text-align: center;
+    background-color: #333;
+    color:white;
+    &-social {
+      padding-top:50px;
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      img {
+        padding: 0 5px;
+      }
+    }
+
+    &-marks {
+
+      ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+
+        li {
+          padding : 0 5px;
+        }
+      }
+    }
+    &-disclaimers {
+
+      ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+
+        li {
+          padding : 0 5px;
+        }
+      }
+
+    }
+
+    &-adress {
+      margin-bottom : 10px;
+    }
+
+    &-copyright {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 70px;
+
+      p {
+        padding: 0 10px;
+      }
+    }
+  }
+
+}

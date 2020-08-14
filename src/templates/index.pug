@@ -1,0 +1,37 @@
+extends layouts/layout
+
+
+block header
+        link(rel="stylesheet" href="css/style.min.css")
+        link(rel='stylesheet' href='//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css')
+        link(rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css")
+        link(href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600&display=swap" rel="stylesheet")
+
+
+
+
+block content
+    include sections/brand_nav
+    include sections/navbar
+    include sections/brand_slider
+    include sections/filters
+    include sections/cards
+    include sections/about_us
+    include sections/feature_slider
+    include sections/breadcrumbs
+
+
+block footer
+    include sections/footer
+
+
+block scripts
+    script(src="js/jquery-2.1.1.min.js")
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js")
+    script(src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js")
+    script(src="//code.jquery.com/jquery-1.11.0.min.js")
+    script(src="//code.jquery.com/jquery-migrate-1.2.1.min.js")
+    script(src="js/slick.js")
+    script(src="js/main.js")
+
+

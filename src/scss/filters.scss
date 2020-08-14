@@ -1,0 +1,38 @@
+@import 'mixins/colors';
+@import "mixins/font-mixins.scss";
+
+.filters {
+  @include font-stm;
+  width:100%;
+  margin-top:-5px;
+  background-color: #C3002F;
+  box-shadow: 0 2px 4px black;
+  &-inner{
+    width:90%;
+    margin:0 auto;
+    padding: 30px 10px 50px 10px;
+    position: relative;
+  }
+  &-select {
+    padding: 10px 130px 10px 10px;
+    margin-bottom: 10px;
+    @media screen and (max-width: 576px) {
+      padding: 10px 170px 10px 10px;
+    }
+  }
+  &-button {
+    color:white;
+    position: absolute;
+    border-radius: 5px;
+    background-color: $grey;
+    padding: 10px 50px;
+    right: 6%;
+    bottom: 15px;
+    @media screen and (max-width: 768px) {
+      right:40%;
+    }
+    @media screen and (max-width: 576px) {
+    right:30%;
+  }
+  }
+}
